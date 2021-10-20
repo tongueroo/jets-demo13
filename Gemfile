@@ -1,6 +1,6 @@
 source "https://rubygems.org"
 
-gem "jets", "~> 3.0.0"
+gem "jets", "= 3.0.13"
 
 # Include jetpacker if you are building html pages
 gem "jetpacker"
@@ -10,6 +10,7 @@ gem "jetpacker"
 gem "mysql2", "~> 0.5.3"
 
 gem "dynomite"
+gem "zeitwerk", "~> 2.4.0"
 
 # development and test groups are not bundled as part of the deployment
 group :development, :test do
